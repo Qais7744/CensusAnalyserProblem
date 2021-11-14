@@ -22,7 +22,6 @@ public class StateCensusAnalyserTest {
             System.out.println("The Data is " + data[0] + ", " + data[1] + ", " + data[2] + ", " + data[3]);
             counter++;
         }
-
         System.out.println("Total States is :- " + counter);
         Assert.assertEquals(30, counter);
     }
